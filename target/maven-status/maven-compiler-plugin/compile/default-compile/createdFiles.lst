@@ -1,4 +1,5 @@
 model\Client.class
+dao\DescompteDAO.class
 dao\ProducteDAO.class
 util\Connexio.class
 dao\ClientDAO.class
@@ -6,5 +7,6 @@ model\Producte.class
 model\LiniaComanda.class
 dao\ComandaDAO.class
 src\App.class
+dao\ConsultesDAO.class
 model\Comanda.class
 model\Descompte.class
