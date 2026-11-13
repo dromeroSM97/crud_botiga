@@ -8,6 +8,15 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>26</maven.compiler.release>
-        <exec.mainClass>com.mycompany.botiga.online.BotigaOnline</exec.mainClass>
+        <exec.mainClass>src.App</exec.mainClass>
+        <exec.args>-Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8</exec.args>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>9.1.0</version>
+        </dependency>
+    </dependencies>
 </project>
