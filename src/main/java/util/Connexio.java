@@ -10,7 +10,8 @@ import java.sql.SQLException;
 
 public class Connexio {
 
-private static final String URL = "jdbc:mysql://localhost:3306/botiga?useUnicode=true&characterEncoding=UTF-8";    private static final String USER = "david";
+private static final String URL = "jdbc:mysql://localhost:3306/botiga?useUnicode=true&characterEncoding=UTF-8";    
+    private static final String USER = "david";
     private static final String PASSWORD = "1234";
 
     public static Connection getConnection() throws SQLException {
